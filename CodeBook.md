@@ -86,8 +86,7 @@ The R script `run_analysis.R` performs the following steps to clean up the data 
 #### Use setdiff() function to set difference of subsets. The elements of setdiff(colnames(data), Labels_ID) are those elements in colnames(data) but not in Labels_ID.
 `labels_data <- setdiff(colnames(data), Labels_ID)`  
 
-#### Use melt() function to melt data so that each row is a unique id-variable combination.
-#### melt () function takes wide-format data and melts it into long-format data.
+#### Use melt() function to melt data so that each row is a unique id-variable combination. melt () function takes wide-format data and melts it into long-format data.
 `melt_data <- melt(data, id = Labels_ID, measure.vars = labels_data)`  
 
 #### Use dcast() function from reshape2 package to apply mean function to dataset to create tidy data.

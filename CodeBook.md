@@ -12,12 +12,12 @@
 
 #### Download zip file.
 
-`if(!file.exists("D:/Coursera/data.zip")) {`
-`fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"`
-`download.file(fileUrl, destfile = "D:/Coursera/data.zip")`
-`} else {`
-  `unzip("D:/Coursera/data.zip")`
-`}`
+`if(!file.exists("D:/Coursera/data.zip")) {`  
+`fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"`  
+`download.file(fileUrl, destfile = "D:/Coursera/data.zip")`  
+`} else {`  
+  `unzip("D:/Coursera/data.zip")`  
+`}`  
 
 #### Set working directory.
 `setwd("D:/Coursera/UCI HAR Dataset/")`

@@ -2,14 +2,9 @@
 
 ### Source and full description of data
 
-[Source] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)  
+ - Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
+ - Full Description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones  
 
-	
-
-[Full Description]
-(http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)  
-
-	
 	
 ### Process
 

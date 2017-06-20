@@ -51,7 +51,7 @@ The R script `run_analysis.R` performs the following steps to clean up the data 
 
 #### Use names() function to set the names. 
 `names(y_test) <- c("Activity_ID", "Activity_Label")`  
-names(subject_test) <- "subject"`  
+`names(subject_test) <- "subject"`  
 
 #### Use cbind() function to bind data by columns.
 `test_data <- cbind(as.data.table(subject_test), y_test, X_test)`  

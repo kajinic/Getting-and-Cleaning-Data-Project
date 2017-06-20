@@ -83,7 +83,7 @@ The R script `run_analysis.R` performs the following steps to clean up the data 
 #### Use c() function on "subject", "Activity_ID", and "Activity_Label" to create Labels_ID vector.
 `Labels_ID <- c("subject", "Activity_ID", "Activity_Label")`  
 
-#### Use setdiff() function to set difference of subsets. 
+#### Use setdiff() function to set difference of subsets.
 #### The elements of setdiff(colnames(data), Labels_ID) are those elements in colnames(data) but not in Labels_ID.
 `labels_data <- setdiff(colnames(data), Labels_ID)`  
 

@@ -32,7 +32,12 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 　
 `run_analysis.R`: this script takes the input data, and creates the output file 
 　
-The R script downloads and unzips the dataset from the above given URL.  The R script reads the test and training sets and merges them.  The mean and std features are extracted. The activity names for the activities are merged. A series of labeled columns to represent single variables from the feature are built up. The average of each variable is calculated and written into `tidy_data.txt`.
+- The R script downloads and unzips the dataset from the above given URL.  
+- The test and training sets are read and merged.  
+- The mean and std features are extracted.  
+- The activity names for the activities are merged.  
+- A series of labeled columns to represent single variables from the feature are built up.  
+- The average of each variable is calculated and written into `tidy_data.txt`.
 　
 　
 ## Output

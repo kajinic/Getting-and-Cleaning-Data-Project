@@ -6,21 +6,18 @@
  - Full Description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones  
 
 	
-### Process
+### Process of Getting and Cleaning Data
 
-
-
-
-The R script `run_analysis.R` performs the following steps to clean up the data
-and create a tidy data sets:
+- The R script `run_analysis.R` performs the following steps to clean up the data and create a tidy data sets:
 
 #### Download zip file.
-`if(!file.exists("D:/Coursera/data.zip")) {
-fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(fileUrl, destfile = "D:/Coursera/data.zip")
-} else {
-  unzip("D:/Coursera/data.zip")
-}`
+
+`if(!file.exists("D:/Coursera/data.zip")) {`
+`fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"`
+`download.file(fileUrl, destfile = "D:/Coursera/data.zip")`
+`} else {`
+  `unzip("D:/Coursera/data.zip")`
+`}`
 
 #### Set working directory.
 `setwd("D:/Coursera/UCI HAR Dataset/")`
